@@ -1,0 +1,401 @@
+/* HEADER*/
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: -15px;
+}
+.header-top {
+    background-color: #69C4F8;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+}
+.header-top input {
+    border:none;
+    background-color: transparent;
+}
+.header-top img {
+    width: 120px;
+}
+.header-top input:focus {
+    outline: none;
+}
+.header h1 {
+    color: #000;
+    font-size: 80px;
+    font-family: Luxurious Script;
+}
+.header img {
+    width: 30px;
+    padding: 5px;
+}
+.header h5 {
+    font-family: nunito;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+.topnav a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+  }
+/*TUTUP HEADER*/
+
+/*SUBSCRIBE SECTION*/
+.subscribe {
+    background-color: #69C4F8;
+    border-radius: 20px;
+
+    padding: 25px;
+}
+.subscribe h5 {
+    color: #152731 ;
+    font-size: 28px;
+}
+.subscribe h6 {
+    color: #34627c;
+}
+.subscribe input {
+    outline: none;
+    border: 1px solid #152731;
+
+    height: 35px;
+    padding-left: 20px;
+
+    width: 60%;
+    margin-bottom: 30px;
+}
+.email-subscribe {
+    padding-top: 15px;
+    text-align: center;
+}
+.email-subscribe button {
+    background-color: #152731;
+    color: #ffffff;
+    border: 1px solid #152731;
+    height: 35px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*TUTUP SUBSCRIBE SECTION*/
+
+/*HERO SECTION*/
+.hero-section {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/*TUTUP HERO SECTION*/
+
+/*  CONTENT SECTION*/
+.btn-continue-reading button {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+.btn-continue-reading button:hover {
+    background-color: #152731;
+    color: #ffffff;
+    border: 1px solid #152731;
+}
+.head-content img {
+    width: 100%;
+}
+.content aside {
+    border: 1px solid #000000;
+    padding: 15px;
+}
+.title-aside {
+    font-size: 18px;
+    text-align: center;
+}
+.about-me-aside {
+    text-align: center;
+}
+.instagram-aside {
+    text-align: center;
+}
+.follow-me-aside img {
+    width: 15%;
+    cursor: pointer;
+}
+.follow-me-aside img:hover {
+    transform: scale(1.1);
+}
+.newsletter-aside input {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding: 15px;
+}
+.categories-aside a {
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    color: #000000;
+    text-decoration: none;
+}
+.categories-aside a:hover{
+    background-color: #34627c;
+    color: #ffffff;
+}
+.search-aside input {
+    width: 100%;
+}
+.search-button-aside {
+    text-align: center; 
+    margin: auto;
+}
+.search-aside button {
+    background-color: transparent;
+    border: 1px solid #000000;
+    outline: none;
+    width: 30%;
+}
+.search-aside button:hover {
+    background-color: #34627c;
+    color: #ffffff;
+}
+.body-content img {
+    cursor: zoom-in;
+}
+.body-content img:hover {
+    transform: scale(1.1);
+}
+/*  CONTENT SECTION*/
+
+/*  FOOTER*/
+.footer {
+    background-color: #C5E7FB;
+    padding-top: 41px;
+    color: #152731;
+}
+.footer h4 {
+    color: #000;
+    font-size: 45px;
+    font-family: Luxurious Script;
+
+    text-align: center;
+}
+.footer h5 {
+    font-family: nunito;
+    font-size: 18px;
+    font-weight: 300;
+    font-weight: bold;
+}
+.footer p {
+    font-family: nunito;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer-2 {
+    background-color: #69C4F8;
+}
+.icon-footer {
+    text-align: center;
+    margin: auto;
+    padding-left: 280px;
+}
+/*TUTUP  FOOTER*/
+
+/*ABOUT*/
+.about-title {
+      text-align: justify;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.about-content {
+    text-align: justify;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.gambar-about img {
+    align-items: center;
+    margin: auto;
+}
+/*TUTUP  ABOUT*/
+
+/*CONTACT*/
+.contact-title {
+    text-align: justify;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.contact-content {
+  text-align: justify;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.form-contact {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.form-contact input {
+    width: 100%;
+    height: 35px;
+
+    padding: 15px;
+}
+.form-contact textarea {
+    width: 100%;
+    height: 200px;
+
+    padding: 15px;
+}
+.btn-form-contact-send {
+    text-align: right;
+}
+.btn-form-contact-send button {
+    height: 35px;
+    width: 50%;
+
+    background-color: #ffffff;
+    border: 1px solid #152731;
+    color: #152731;
+}
+.btn-form-contact-send button:hover {
+    background-color: #152731;
+    border: 1px solid #152731;
+    color: #ffffff;
+}
+/*TUTUP  CONTACT*/
+
+/*CATEGORIES*/
+.gambar-categories a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+.gambar-categories img {
+    box-shadow: 6px 16px 16px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 516px;
+}
+.gambar-categories img:hover {
+    box-shadow: 6px 16px 16px 3px rgba(212, 255, 18, 0.534);
+    position: relative;
+    bottom: 4px;
+}
+/*TUTUP  CATEGORIES*/
+
+.gambar-categories-detail a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+.gambar-categories-detail img {
+    box-shadow: 6px 16px 16px 3px rgba(0, 0, 0, 0.25);
+}
+.gambar-categories-detail img:hover {
+    box-shadow: 6px 16px 16px 3px rgba(212, 255, 18, 0.534);
+    position: relative;
+    bottom: 4px;
+}
+.btn-load-more {
+    text-align: center;
+}
+.btn-load-more button {
+    height: 35px;
+
+    background-color: #ffffff;
+    border: 1px solid #152731;
+    color: #152731;
+
+    text-align: center;
+
+    width: 150px;
+}
+.btn-load-more button:hover {
+    background-color: #152731;
+    border: 1px solid #152731;
+    color: #ffffff;
+}
+/*TUTUP  CATEGORIES*/
+
+.frame-desk-time {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #000000;
+
+}
+.frame-instruksi-recipe {
+    padding: 40px;
+    border: 1px solid #000000;
+}
+
+.button-recipes button{
+    width: 100%;
+    outline: none;
+
+    background-color: #ffffff;
+    border: 1px solid #152731;
+    color: #152731;
+    margin-top: 10px;
+    height: 35px;
+}
+
+.button-recipes button:hover {
+    background-color: #152731;
+    border: 1px solid #152731;
+    color: #ffffff;
+}
+.you-may {
+    text-align: center;
+    margin: auto;
+}
+.you-may a {
+    color: #000000;
+    text-decoration: none;
+}
+.post-comment h4 {
+    text-align: center;
+}
+.form-post-comment input {
+    width: 100%;
+    padding: 15px;
+}
+.form-post-comment textarea {
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+}
+.btn-recipe-next {
+    text-align: center;
+}
+
+.btn-recipe-next button {
+    height: 35px;
+    width: 50%;
+
+    background-color: #ffffff;
+    border: 1px solid #152731;
+    color: #152731;
+}
+.btn-recipe-next button:hover {
+    background-color: #152731;
+    border: 1px solid #152731;
+    color: #ffffff;
+}
